@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Konversi Mata Uang</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Konverter Mata Uang</h2>
+        <div class="converter">
+            <input type="number" id="amount" placeholder="Masukan jumlah" value="1">
+            <select name="" id="from-currency"></select>
+            <span>➡️</span>
+            <select name="" id="to-currency"></select>
+            <button onclick="convertCurrency()">Konversi</button>
+        </div>
+        <h3 id="result">Hasil akan muncul di sini</h3>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
